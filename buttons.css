@@ -1,0 +1,206 @@
+/* CSS Document */
+.pointer{
+	cursor:pointer;
+}
+.dk-selectable-button{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 13px;
+}
+.dk-selectable-button .left{
+    display: inline-block;
+    width: 20px; height: 29px;
+    background: url(../images/buttons/select-btn-up-left-v2.html) no-repeat;
+    vertical-align: middle;
+}
+.dk-selectable-button .right{
+    display: inline-block;
+    width: 20px; height: 29px;
+    background: url(../images/buttons/select-btn-up-right-v2.html) no-repeat;
+    vertical-align: middle;
+}
+.dk-selectable-button .center{
+    display: inline-block;
+    height: 29px;
+    background: url(../images/buttons/select-btn-up-center-v2.html) repeat-x;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+    line-height: 29px;
+}
+.dk-selectable-button:hover{
+    color: #000;
+}
+.dk-selectable-button:hover .center{
+    background: url(../images/buttons/select-btn-over-center.html) repeat-x   ;
+}
+.dk-selectable-button:hover .left{
+    background: url(../images/buttons/select-btn-over-left.html) repeat-x   ;
+}
+.dk-selectable-button:hover .right{
+    background: url(../images/buttons/select-btn-over-right.html) repeat-x   ;
+}
+.dk-selectable-button-selected{
+    color: #000;
+}
+.dk-selectable-button-selected .center{
+    background: url(../images/buttons/select-btn-selected-center.html) repeat-x   ;
+}
+.dk-selectable-button-selected .left{
+    background: url(../images/buttons/select-btn-selected-left.html) repeat-x   ;
+}
+.dk-selectable-button-selected .right{
+    background: url(../images/buttons/select-btn-selected-right.html) repeat-x   ;
+}
+/***/
+.prevBtn, .nextBtn{
+	height: 32px;
+	width: 34px;
+	float:left;
+	margin-right: 0px;
+}
+.navigation-status{
+	font-size: 13px;
+	color: #ffffff;
+	padding-top: 7px;
+	margin-left: 100px;
+}
+.prevBtn a, .nextBtn a{
+	height: 32px;
+	width: 34px;	
+	background-repeat:no-repeat;
+	background-position:left top;
+	display:inline-block;	
+}
+.prevBtn a{
+	background-image:url(../images/nav-prev.html);
+}
+.prevBtn.dark a{
+	background-image:url(../images/nav-prev-dark.html);
+}
+.prevBtn a:hover{
+	background-image:url(../images/nav-prev-over.html);
+}
+.prevBtn.dark a:hover{
+	background-image:url(../images/nav-prev-over-dark.html);
+}
+
+.nextBtn a{	
+	background-image:url(../images/nav-next.html);
+}
+.nextBtn.dark a{	
+	background-image:url(../images/nav-next-dark.html);
+}
+.nextBtn a:hover{	
+	background-image:url(../images/nav-next-over.html);
+}
+.nextBtn.dark a:hover{	
+	background-image:url(../images/nav-next-over-dark.html);
+}
+
+a.home-view-btn{
+    color: #000;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+a.home-view-btn:hover{
+    color: #fff;
+}
+a.home-view-btn:hover span.left-bg, a.home-view-btn:hover span.center-content, a.home-view-btn:hover span.right-bg{
+    background-position: left -53px;
+}
+a.home-view-btn span.left-bg{
+    height: 53px; width: 35px;
+    background: url(../images/home/btn-view-leftbg.html) no-repeat left top;
+    float: left;
+    display: block;
+}
+a.home-view-btn span.center-content{
+    height: 42px;
+    background: url(../images/home/btn-view-centerbg.html) repeat-x left top;
+    float: left;
+    padding-top: 11px;
+    display: block;
+}
+a.home-view-btn span.right-bg{
+    height: 53px; width: 35px;
+    background: url(../images/home/btn-view-rightbg.html) no-repeat right top;
+    float: left;
+    display: block;
+}
+/**/
+a.yes-btn{
+    color: #fff;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+a.yes-btn:hover{
+    color: #fff;
+}
+a.yes-btn:hover span.left-bg, a.yes-btn:hover span.center-content, a.yes-btn:hover span.right-bg{
+    background-position: left -70px;
+}
+a.yes-btn span.left-bg{
+    height: 70px; width: 43px;
+    background: url(../images/oldbrowser/yes-left-bg.html) no-repeat left top;
+    float: left;
+    display: block;
+}
+a.yes-btn span.center-content{
+    height: 53px;
+    background: url(../images/oldbrowser/yes-center-bg.html) repeat-x left top;
+    float: left;
+    padding-top: 17px;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+a.yes-btn span.right-bg{
+    height: 70px; width: 43px;
+    background: url(../images/oldbrowser/yes-right-bg.html) no-repeat right top;
+    float: left;
+    display: block;
+}
+/**/
+a.no-btn{
+    color: #fff;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+a.no-btn:hover{
+    color: #fff;
+}
+a.no-btn:hover span.left-bg, a.no-btn:hover span.center-content, a.no-btn:hover span.right-bg{
+    background-position: left -53px;
+}
+a.no-btn span.left-bg{
+    height: 53px; width: 32px;
+    background: url(../images/oldbrowser/no-left-bg.html) no-repeat left top;
+    float: left;
+    display: block;
+}
+a.no-btn span.center-content{
+    height: 43px;
+    background: url(../images/oldbrowser/no-center-bg.html) repeat-x left top;
+    float: left;
+    padding-top: 10px;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+a.no-btn span.right-bg{
+    height: 53px; width: 32px;
+    background: url(../images/oldbrowser/no-right-bg.html) no-repeat right top;
+    float: left;
+    display: block;
+}
